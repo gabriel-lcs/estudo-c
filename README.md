@@ -1,1 +1,1 @@
-# estudy-c
+# estudo-c
