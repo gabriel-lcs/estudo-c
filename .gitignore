@@ -1,9 +1,1 @@
-a.out
-*.out
-
-*.exe
-
-*.o
-
-*.log
-*.tmp
+bin/*.o
