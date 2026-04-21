@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/*
+    Aula 27 - Operador de incremento ++
+*/  
+
+int main()
+{   
+    int resultado, contador = 10;
+
+    //Adiciona 1 na variável
+    /*
+    contador ++; 
+    contador += 1;
+    contador = contador + 1;
+    */
+    
+    resultado = ++contador;
+
+    printf("Valor: %d\n", resultado);
+
+    return 0;
+}
