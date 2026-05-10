@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /*
-    Aula 41 - Verdadeiro e falso na linguagem C
+    Aula 44 - Decisão Aninhadas
 */  
 
 int main()
@@ -13,10 +13,14 @@ int main()
     scanf("%d", &a);
 
     if(a < 0)
-        printf("Valor Negativo\n");
-    else
-        printf("Valor Positivo\n");
-
+        printf("Valor negativo\n");
+    else{
+        if(a > 0)
+            printf("Valor positivo\n");
+        else
+            printf("Valor igual a zero\n");
+    }
+    
     printf("Continuação do programa\n");
 
     return 0;

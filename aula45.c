@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /*
-    Aula 41 - Verdadeiro e falso na linguagem C
+    Aula 45 - Operador ternário aninhado
 */  
 
 int main()
@@ -12,11 +12,8 @@ int main()
     printf("Digite um valor qualquer: ");
     scanf("%d", &a);
 
-    if(a < 0)
-        printf("Valor Negativo\n");
-    else
-        printf("Valor Positivo\n");
-
+    a < 0 ? printf("Valor negativo\n") : a > 0 ? printf("Valor positivo\n") : printf("Valor igual a zero\n");
+    
     printf("Continuação do programa\n");
 
     return 0;

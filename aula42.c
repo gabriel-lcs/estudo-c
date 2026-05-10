@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /*
-    Aula 42 - Verdadeiro e falso na linguagem C
+    Aula 42 - Endentação e uso das chaves
 */  
 
 int main()
@@ -12,11 +12,13 @@ int main()
     printf("Digite um valor qualquer: ");
     scanf("%d", &a);
 
-    if(a < 0){
+    //Se tiver apenas 1 linha apos if e else não precisa de chave, se tiver mais de 1, precisa.
+
+    if(a < 0)
         printf("Valor Negativo\n");
-    }
     else{
         printf("Valor Positivo\n");
+        printf("Valor Positivo 2\n");
     }
 
     printf("Continuação do programa\n");

@@ -2,7 +2,8 @@
 #include <stdlib.h>
 
 /*
-    Aula 41 - Verdadeiro e falso na linguagem C
+    Aula 43 - Operador terminário em C
+    condição ? verdadeiro : falso
 */  
 
 int main()
@@ -12,11 +13,8 @@ int main()
     printf("Digite um valor qualquer: ");
     scanf("%d", &a);
 
-    if(a < 0)
-        printf("Valor Negativo\n");
-    else
-        printf("Valor Positivo\n");
-
+    a < 0 ? printf("Valor Negativo\n") : printf("Valor Positivo\n");
+    
     printf("Continuação do programa\n");
 
     return 0;
